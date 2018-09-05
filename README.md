@@ -1,5 +1,9 @@
 # rocker-tidyverse-RQuantLib
 
+[![](https://images.microbadger.com/badges/image/methodsconsultants/rocker-tidyverse-rquantlib.svg)](https://microbadger.com/images/methodsconsultants/rocker-tidyverse-rquantlib)
+[![](https://img.shields.io/docker/pulls/methodsconsultants/rocker-tidyverse-rquantlib.svg)](https://hub.docker.com/r/methodsconsultants/rocker-tidyverse-rquantlib)
+[![](https://img.shields.io/docker/automated/methodsconsultants/rocker-tidyverse-rquantlib.svg)](https://hub.docker.com/r/methodsconsultants/rocker-tidyverse-rquantlib/builds)
+
 A docker container with RStudio, the Tidyverse, and RQuantLib.
 
 This is [`rocker/tidyverse`](https://hub.docker.com/r/rocker/tidyverse/) with the `libquantlib0-dev` apt package and the `RQuantLib` R package on top.
