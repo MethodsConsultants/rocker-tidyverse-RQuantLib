@@ -1,7 +1,7 @@
 FROM rocker/tidyverse:latest
 
-RUN apt-get update -qq \
-  && apt-get -y --no-install-recommends install \
-    libquantlib0-dev \
-  && install2.r --error \
+RUN echo "deb http://deb.debian.org/debian unstable main" >> /etc/apt/sources.list
+RUN apt-get update -qq
+RUN apt-get -y --no-install-recommends install libquantlib0-dev/unstable
+RUN install2.r --error \
     RQuantLib
